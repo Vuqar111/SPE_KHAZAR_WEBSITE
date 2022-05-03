@@ -298,11 +298,6 @@ ul li {
   transition: 3s ease-in-out;
 }
 
-/* .faqheader h1 {
-  top: bott;
-  left: 50%;
-  transform: translateX(-50%);
-} */
 
 /* RecordsScreen */
 
@@ -619,6 +614,14 @@ textarea {
   width: 100%;
 }
 
+
+.recordcontainer {
+  justify-content: center;
+}
+
+.hometitle {
+  text-align: center;
+}
   .editmainform {
     width: 100%;
   }

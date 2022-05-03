@@ -28,14 +28,14 @@ export default function HomeScreen() {
       <div className="h-[auto] flex">
         <Slider />
       </div>
-      <div className="w-[90%] m-[auto] mt-[25px] text-[20px] ">Our Latest Events</div>
+      <div className="w-[90%] m-[auto] mt-[25px] text-[20px] hometitle">Our Latest Events</div>
       <div className="w-[90%] m-[auto] flex justify-between mt-[20px] events">
         {loading ? (
           <LoadingBox></LoadingBox>
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <div className="w-[100%] flex justify-between items-center mobileevents flex-wrap">
+          <div className="recordcontainer">
             {products.slice(0,3).map((product) => (
               <Product key={product._id} product={product} />
             ))}

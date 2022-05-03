@@ -7,6 +7,7 @@ import lamiye from './assets/images/lamiye.jpg';
 import salman from './assets/images/salman.jpeg';
 import leyla from './assets/images/leyla.jpeg';
 import sems from './assets/images/semsimage.jpg';
+import mehemmed from './assets/images/mehemmed.jpg';
 export const slider = [
   {
     image:
@@ -95,10 +96,10 @@ export const teams = [
   },
   {
     id: 10,
-  name: "Diana Ismayilova",
+  name: "Mehemmed Sadiqov",
   status: "President", 
   description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  
-  img: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  img: mehemmed
   },
   {
     id: 11,

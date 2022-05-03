@@ -26,7 +26,7 @@ export default function HomeScreen() {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <div className="flex justify-between flex-wrap">
+          <div className="recordcontainer">
             {blogs.map((blog) => (
               <Blog key={blog._id} blog={blog} />
             ))}

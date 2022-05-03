@@ -29,6 +29,9 @@ const Container = styled.div`
   :hover {
     cursor: pointer;
   }
+  @media (max-width: 768px) {
+    margin-top: 45px;
+  }
 
 `;
 const Image = styled.img`
