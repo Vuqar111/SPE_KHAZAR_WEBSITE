@@ -7,7 +7,7 @@ const Subscribe = () => {
       <div className="subscribe">
         <div className="subscribebtn">
              <p>Do you have idea or offer? Let's run away</p>
-             <button>
+             <button className="p-[10px]">
                <Link to="/contact">
                Let's contact
                </Link></button>
