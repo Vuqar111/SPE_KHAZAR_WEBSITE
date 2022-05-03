@@ -90,6 +90,7 @@ margin: auto;
 .subscribebtn button{
     width: 150px;
     border-radius: 0px;
+    padding: 10px;
 }
 
 }

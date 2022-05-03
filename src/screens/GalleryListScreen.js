@@ -58,7 +58,7 @@ export default function GalleryListScreen(props) {
     <div>
       <div className="row">
         <h1> Galleries</h1>
-        <button type="button" className="primary" onClick={createHandler}>
+        <button type="button" className="primary p-[1rem]" onClick={createHandler}>
           Create Gallery-Image
         </button>
       </div>
@@ -92,7 +92,7 @@ export default function GalleryListScreen(props) {
                   <td>
                     <button
                       type="button"
-                      className="small edit"
+                      className="small edit p-[1rem]"
                       onClick={() =>
                         props.history.push(`/gallery/${gallery._id}/edit`)
                       }
@@ -101,7 +101,7 @@ export default function GalleryListScreen(props) {
                     </button>
                     <button
                       type="button"
-                      className="small delete"
+                      className="small delete p-[1rem]"
                       onClick={() => deleteHandler(gallery)}
                     >
                       Delete

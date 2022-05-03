@@ -54,7 +54,7 @@ export default function BookListScreen(props) {
     <div>
       <div className="row">
         <h1>Salam Guys</h1>
-        <button type="button" className="primary" onClick={createHandler}>
+        <button type="button" className="primary p-[1rem]" onClick={createHandler}>
           Create Book
         </button>
       </div>
@@ -89,7 +89,7 @@ export default function BookListScreen(props) {
                   <td>
                     <button
                       type="button"
-                      className="small edit"
+                      className="small edit p-[1rem]"
                       onClick={() =>
                         props.history.push(`/book/${book._id}/edit`)
                       }
@@ -98,7 +98,7 @@ export default function BookListScreen(props) {
                     </button>
                     <button
                       type="button"
-                      className="small delete"
+                      className="small delete p-[1rem]"
                       onClick={() => deleteHandler(book)}
                     >
                       Delete

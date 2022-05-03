@@ -59,7 +59,7 @@ export default function ProductListScreen(props) {
     <div>
       <div className="row">
         <h1>Salam Guys</h1>
-        <button type="button" className="primary" onClick={createHandler}>
+        <button type="button" className="primary p-[1rem]" onClick={createHandler}>
           Create Event
         </button>
       </div>
@@ -97,7 +97,7 @@ export default function ProductListScreen(props) {
                   <td>
                     <button
                       type="button"
-                      className="small edit"
+                      className="small edit p-[1rem]"
                       onClick={() =>
                         props.history.push(`/product/${product._id}/edit`)
                       }
@@ -106,7 +106,7 @@ export default function ProductListScreen(props) {
                     </button>
                     <button
                       type="button"
-                      className="small delete"
+                      className="small delete p-[1rem]"
                       onClick={() => deleteHandler(product)}
                     >
                       Delete

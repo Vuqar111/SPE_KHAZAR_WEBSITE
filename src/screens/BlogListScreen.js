@@ -54,7 +54,7 @@ export default function BlogListScreen(props) {
     <div>
       <div className="row">
         <h1>Salam Guys</h1>
-        <button type="button" className="primary" onClick={createHandler}>
+        <button type="button" className="primary p-[1rem]" onClick={createHandler}>
           Create Blog
         </button>
       </div>
@@ -89,7 +89,7 @@ export default function BlogListScreen(props) {
                   <td>
                     <button
                       type="button"
-                      className="small edit"
+                      className="small edit p-[1rem]"
                       onClick={() =>
                         props.history.push(`/blog/${blog._id}/edit`)
                       }
@@ -98,7 +98,7 @@ export default function BlogListScreen(props) {
                     </button>
                     <button
                       type="button"
-                      className="small delete"
+                      className="small delete p-[1rem]"
                       onClick={() => deleteHandler(blog)}
                     >
                       Delete
