@@ -1,12 +1,14 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import styled from "styled-components";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineSearch } from "react-icons/ai";
 import { BsPersonFill, BsMinecartLoaded } from "react-icons/bs";
 const SubHeader = () => {
   const { showlink, setshowlink } = useState(true);
   return (
-    <div>
+    <Wrapper>
+  <div>
       <div className="subnavbar bg-[white]">
         <nav>
           <div className="flex w-[35%] mainsubheader font-bold">
@@ -34,7 +36,21 @@ const SubHeader = () => {
         </nav>
       </div>
     </div>
+    </Wrapper>
   );
 };
 
 export default SubHeader;
+
+
+const Wrapper = styled.div`
+
+
+@media (max-width: 768px) {
+  .mainsubheader {
+    width: 100%;
+    font-size: 10px;
+  }
+}
+
+`
