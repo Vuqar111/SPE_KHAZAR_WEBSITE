@@ -7,7 +7,7 @@ const Subscribe = () => {
       <div className="subscribe">
         <div className="subscribebtn">
              <p>Do you have idea or offer? Let's run away</p>
-             <button>
+             <button >
                <Link to="/contact">
                Let's contact
                </Link></button>
@@ -90,6 +90,7 @@ margin: auto;
 .subscribebtn button{
     width: 150px;
     border-radius: 0px;
+    padding: 10px;
 }
 
 }
