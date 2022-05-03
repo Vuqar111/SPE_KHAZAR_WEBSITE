@@ -20,7 +20,7 @@ export default function GalleriesSection() {
   };
   return (
     <div className="maingallery">
-      <h1 className="text-center text-[50px]">Gallery</h1>
+      <h1 className="text-center text-[50px] titleof">Gallery</h1>
       {loading ? (
         <LoadingBox></LoadingBox>
       ) : error ? (

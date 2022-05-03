@@ -102,20 +102,6 @@ export const teams = [
   },
   {
     id: 11,
-  name: "Aqsin Qarashli",
-  status: "Vice-President", 
-  description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  
-  img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-  },
-  {
-    id: 12,
-  name: "Resad Musayev",
-  description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  
-  status: "Chief Excutifer", 
-  img: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-  },
-  {
-    id: 13,
   name: "Sems Qarayave",
   status: "Designer", 
   description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  

@@ -45,7 +45,6 @@ export default function ProductScreen(props) {
                 <div className="p-[20px] booktitle">
                   <h2 className="font-bold text-[30px]">{book.title}</h2>
                   <p>{book.description}</p>
-                  <p>{book.url}</p>
                 </div>
                 <hr />
                 <div className="datasection w-[100%] p-[15px] m-[auto]  flex justify-between">

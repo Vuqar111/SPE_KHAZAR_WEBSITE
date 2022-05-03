@@ -99,30 +99,6 @@ button {
   display: block;
 }
 
-@media (max-width: 768px) {
-  .dropdown {
-    margin-left: 10px;
-  }
-  .dropdown-content {
-    position: absolute;
-    display: none;
-    right: 10;
-    min-width: 6rem;
-    padding: 0px;
-    z-index: 1;
-    background-color: var(--black-color);
-    margin: 0;
-    margin-left: 0px;
-    margin-top: 1.5rem;
-    border-radius: 0.5rem;
-  }
-  .dropdown-content a {
-    color: white;
-    text-decoration: none;
-    font-size: 15px;
-    margin-top: 0px;
-  }
-}
 /* Checkout Steps */
 .checkout-steps > div {
   border-top: 0.3rem #c0c0c0 solid;
@@ -202,66 +178,6 @@ ul li {
 
 .hamburger {
   display: none;
-}
-
-@media (max-width: 768px) {
-  ::-webkit-scrollbar {
-    display: none;
-    overflow: hidden;
-  }
-  nav {
-    width: 100%;
-    padding: 10px;
-  }
-  .links-container {
-    display: none;
-  }
-
-  .icon {
-    font-size: 25px;
-    color: black;
-  }
-  .hamburger {
-    display: block;
-    margin-top: 5px;
-  }
-
-  .show-container {
-    width: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    padding-top: 0px;
-    display: block;
-    margin-top: 55px;
-    background-color: white;
-    z-index: 1000;
-    transition: 3s;
-  }
-  .submenu ul {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .mainsubheader {
-    width: 100%;
-    font-size: 14px;
-  }
-  .subheader {
-    width: 100%;
-  }
-
-  /* Footer */
-  .footer {
-    flex-direction: column;
-  }
-
-  /* Events */
-  .events {
-    width: 100%;
-    height: auto;
-    padding: 0px;
-  }
 }
 
 /* LoginFooter */
@@ -391,28 +307,13 @@ ul li {
 /* RecordsScreen */
 
 .recordcontainer {
-  min-height: 100vh;
-  height: 100%;
   width: 100%;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  padding: 20px;
 }
 
 
-.playbtn {
-  font-size: 65px;
-  color: #256f98;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  cursor: pointer;
-}
-.playbtn:hover {
-  font-size: 85px;
-  transition: 1s ease-in-out;
-}
 
 /* Slider */
 
@@ -579,45 +480,7 @@ textarea {
   width: 100%;
   color: white;
 }
-@media (max-width: 768px) {
-  .editmainform {
-    width: 100%;
-  }
-  .editmainform div {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 10px;
-    text-align: left;
-  }
-  .editmainform div input,
-  textarea {
-    width: 100%;
-    background-color: var(--blue-color);
-    color: white;
-  }
-}
 
-@media (max-width: 991px) {
-  .gallery {
-    -webkit-column-count: 2;
-    -moz-column-count: 2;
-    column-count: 2;
-  }
-}
-
-@media (max-width: 480px) {
-  .gallery {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-    -webkit-column-width: 100%;
-    -moz-column-width: 100%;
-    column-width: 100%;
-  }
-}
 
 /* Model */
 .model {
@@ -666,4 +529,129 @@ textarea {
   background-color: black;
   color: white;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+
+  ::-webkit-scrollbar {
+    display: none;
+    overflow: hidden;
+  }
+  nav {
+    width: 100%;
+    padding: 10px;
+  }
+  .links-container {
+    display: none;
+  }
+
+  .icon {
+    font-size: 25px;
+    color: black;
+  }
+  .hamburger {
+    display: block;
+    margin-top: 5px;
+  }
+
+  .show-container {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-top: 0px;
+    display: block;
+    margin-top: 55px;
+    background-color: white;
+    z-index: 1000;
+    transition: 3s;
+  }
+  .submenu ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mainsubheader {
+    width: 100%;
+    font-size: 14px;
+  }
+  .subheader {
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    flex-direction: column;
+  }
+
+  /* Events */
+  .events {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+  }
+
+  .dropdown {
+    margin-left: 10px;
+  }
+  .dropdown-content {
+    position: absolute;
+    display: none;
+    right: 10;
+    min-width: 6rem;
+    padding: 0px;
+    z-index: 1;
+    background-color: var(--black-color);
+    margin: 0;
+    margin-left: 0px;
+    margin-top: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 0px;
+  }
+
+/* Record Section */
+.recordscontainer {
+  width: 100%;
+}
+
+  .editmainform {
+    width: 100%;
+  }
+  .editmainform div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    text-align: left;
+  }
+  .editmainform div input,
+  textarea {
+    width: 100%;
+    background-color: var(--blue-color);
+    color: white;
+  }
+  .gallery {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+  .gallery {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-width: 100%;
+    -moz-column-width: 100%;
+    column-width: 100%;
+  }
+  /* IndexOf */
+  .titleof {
+    font-size: 18px;
+  }
 }

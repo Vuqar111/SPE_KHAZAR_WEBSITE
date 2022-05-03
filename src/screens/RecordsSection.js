@@ -15,10 +15,10 @@ export default function RecordsSection() {
 
   return (
     <div>
-      <div className="flex justify-center items-center bg-[#C4C4C4] text-center text-5xl font-bold p-[10px]">
+      <div className="flex justify-center items-center bg-[#C4C4C4] text-center text-5xl font-bold p-[10px] titleof">
         <p className="text-center">Records</p>
       </div>
-      <div className="w-[90%] h-[100%] m-[auto] flex justify-center mt-[20px] ">
+      <div className="w-[90%] h-[100%] m-[auto] flex justify-center mt-[20px] recordscontainer">
         {loading ? (
           <LoadingBox></LoadingBox>
         ) : error ? (

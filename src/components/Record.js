@@ -36,23 +36,7 @@ const Image = styled.img`
   width: 100%;
   object-fit: cover;
 `;
-const Button = styled.button`
-  position: relative;
-  font-size: 20px;
-  color: white;
-  border: none;
-  padding: 30px;
-  border-radius: 50%;
-  text-align: center;
-  cursor: pointer;
-  font-weight: 500;
-  z-index: 100;
-  background: #256f98;
-  transition: all 0.5s ease;
-  &:hover {
-    background: #0492c4;
-  }
-`;
+
 const PlayContainer = styled.div`
   position: absolute;
   width: 80px;

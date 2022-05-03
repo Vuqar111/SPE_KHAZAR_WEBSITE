@@ -115,12 +115,12 @@
       z-index: 10;
     }
     .slide-title {
-        top: 30%;
+        top: 20%;
         font-size: 2rem;
     }
     
     .slide-text {
-      top: 50%;
+      top: 40%;
       font-size: 15px;
     }
     

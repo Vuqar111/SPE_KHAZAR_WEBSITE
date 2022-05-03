@@ -17,7 +17,7 @@ export default function HomeScreen() {
 
   return (
     <div>
-      <div className="flex justify-center items-center bg-[#C4C4C4] text-center text-5xl font-bold p-[10px]">
+      <div className="flex justify-center items-center bg-[#C4C4C4] text-center text-5xl font-bold p-[10px]  titleof">
         <p className="text-center">Events</p>
       </div>
       <div className="w-[90%] m-[auto] flex justify-between mt-[20px] events">

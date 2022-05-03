@@ -35,7 +35,7 @@ export default function HomeScreen() {
         ) : error ? (
           <MessageBox variant="danger">{error}</MessageBox>
         ) : (
-          <div className="w-[100%] flex justify-between flex-wrap">
+          <div className="w-[100%] flex justify-between items-center mobileevents flex-wrap">
             {products.slice(0,3).map((product) => (
               <Product key={product._id} product={product} />
             ))}
