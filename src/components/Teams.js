@@ -6,7 +6,7 @@ const Teams = () => {
     <Wrapper>
       <div className=" p-[20px]">
         <h1 className="font-bold text-[30px] text-center">Teams</h1>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-between flex-wrap teamsmain">
           {teams.map((team) => {
             return (
               <div className="card">
@@ -29,6 +29,7 @@ export default Teams;
 const Wrapper = styled.div`
 width: 80%;
 margin: auto;
+
 
 .card {
     display: flex;
@@ -58,8 +59,11 @@ p{
 
 @media (max-width: 768px) {
     width: 100%;
-margin: auto;
+    margin: auto;
 
+    .teamsmain {
+      justify-content: center;
+    }
 .card {
     display: flex;
     flex-direction: column;
