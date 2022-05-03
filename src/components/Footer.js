@@ -33,7 +33,7 @@ const Footer = () => {
           <div className="font-bold text-[16px] mt-[10px]">Help</div>
           <div className="footerul">
             <li>
-              <a href="mailto:vuqqa252@gmail.com">Contact Us</a>
+              <Link to="/contact">Contact Us</Link>
             </li>
             <Link to="/faq">
               <li>FAQ</li>

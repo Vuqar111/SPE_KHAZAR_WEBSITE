@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import {Link} from 'react-router-dom';
 const Subscribe = () => {
   return (
     <Wrapper>
@@ -7,9 +8,9 @@ const Subscribe = () => {
         <div className="subscribebtn">
              <p>Do you have idea or offer? Let's run away</p>
              <button>
-               <a href="mailto:vuqqa252@gmail.com">
+               <Link to="/contact">
                Let's contact
-               </a></button>
+               </Link></button>
         </div>
       </div>
     </Wrapper>
