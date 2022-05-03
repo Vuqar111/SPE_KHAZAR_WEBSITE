@@ -162,7 +162,7 @@ export default function ProfileScreen() {
                     ></input>
                   </div>
                   <div>
-                    <button className="primary" type="submit">
+                    <button className="primary p-[10px]"  type="submit">
                       Update
                     </button>
                   </div>

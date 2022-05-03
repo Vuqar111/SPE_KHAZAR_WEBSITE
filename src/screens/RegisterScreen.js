@@ -37,7 +37,6 @@ export default function RegisterScreen(props) {
     }
   }, [props.history, redirect, userInfo]);
 
-  console.log(universities);
 
 
   return (
@@ -78,7 +77,7 @@ export default function RegisterScreen(props) {
             </div>
             <div className="mt-[10px]">
               <label className="mt-[15px]" htmlFor="email">
-                Email Uni
+                University
               </label>
               <input
                 type="text"
@@ -91,7 +90,7 @@ export default function RegisterScreen(props) {
             </div>
             <div className="mt-[10px]">
               <label className="mt-[15px]" htmlFor="faculty">
-                Email Faculty
+              Faculty
               </label>
               <input
                 type="text"

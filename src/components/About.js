@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import aboutimg from "../assets/images/aboutimg.jpg";
+import aboutimg from "../assets/images/speimageabout.jpeg";
 const About = () => {
   return (
     <Wrapper>
