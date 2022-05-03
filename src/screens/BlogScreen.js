@@ -56,13 +56,13 @@ export default function ProductScreen(props) {
             <div>
               <div className="w-[100%] mt-[20px]">
                 <img
-                  className="w-[100%] h-[100%] max-h-[500px] m-[auto]"
+                  className="blogimage"
                   src={blog.image}
                   alt={blog.title}
                 ></img>
               </div>
               <div className="p-[20px] eventtitle">
-                <h2 className="font-bold text-[30px]">{blog.title}</h2>
+                <h2 className="font-bold text-[30px] blogtitle">{blog.title}</h2>
                 <p>{blog.description}</p>
               </div>
               <hr />
@@ -105,9 +105,19 @@ const Wrapper = styled.div`
   .sharecontainer {
     width: 10%;
   }
+  .blogimage {
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
   @media (max-width: 768px) {
     .content {
       margin-top: 10px;
+    }
+    .blogtitle {
+      font-size: 20px;
     }
     .center {
       width: 95%;
@@ -124,7 +134,7 @@ const Wrapper = styled.div`
     }
     .date {
       font-size: 15px;
-      width: 100px;
+      width: auto;
     }
     .sharecontainer {
       width: 30%;

@@ -7,7 +7,7 @@ export default function Product(props) {
     <Wrapper>
       <div key={product.id} className="card">
         <Link to={`/product/${product._id}`}>
-          <img className="medium" src={product.image} alt={product.name} />
+          <img  src={product.image} alt={product.name} />
         </Link>
         <div className="card-body">
           <Link to={`/product/${product._id}`}>
@@ -22,7 +22,8 @@ export default function Product(props) {
 
 const Wrapper = styled.div`
   .card {
-    width: 370px;
+    
+    width: 100%;
     height: auto;
     margin-top: 20px;
     margin: 20px;
@@ -30,12 +31,14 @@ const Wrapper = styled.div`
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   }
   img {
-    width: 370px;
+    width: 100%;
     height: 270px;
   }
   @media (max-width: 768px) {
     .card {
+      max-width: 250px;
       width: 100%;
+      padding: 0px;
     }
     img {
       width: 100%;
@@ -43,6 +46,9 @@ const Wrapper = styled.div`
     }
     h2 {
       font-size: 20px;
+    }
+    .card-body {
+      padding: 5px;
     }
   }
 `;

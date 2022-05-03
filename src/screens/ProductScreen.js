@@ -32,7 +32,7 @@ export default function ProductScreen(props) {
             <div>
               <div className="mt-[20px] eventimgdiv">
                 <img
-                  className="m-[auto]"
+                  className="blogimage"
                   src={product.image}
                   alt={product.name}
                 ></img>
@@ -53,7 +53,7 @@ export default function ProductScreen(props) {
                 </div>
 
                 <div className="bg-[#256F98] p-[10px] text-[white]">
-                  <div className="applybtn  pointer">Apply Event</div>
+                  <div className="applybtn  pointer">Apply Event3</div>
                 </div>
               </div>
             </div>
@@ -76,9 +76,18 @@ const Wrapper = styled.div`
     font-weight: bold;
     font-size: 40px;
   }
-
+  .blogimage {
+    width: 100%;
+    max-height: 500px;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+  }
   @media (max-width: 768px) {
     .productname {
+      font-size: 15px;
+    }
+    .eventitle h2{
       font-size: 15px;
     }
   }
