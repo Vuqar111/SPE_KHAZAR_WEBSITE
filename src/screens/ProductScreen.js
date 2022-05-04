@@ -37,8 +37,8 @@ export default function ProductScreen(props) {
                   alt={product.name}
                 ></img>
               </div>
-              <div className="p-[20px] eventtitle">
-                <h2 className="font-bold text-[30px]">{product.name}</h2>
+              <div className="eventtitle">
+                <h2>{product.name}</h2>
                 <p className="">
                   {product.description}
                 </p>
@@ -52,8 +52,8 @@ export default function ProductScreen(props) {
                   <div className="font-bold ">{product.createdAt.slice(0,10)}</div>
                 </div>
 
-                <div className="bg-[#256F98] p-[10px] text-[white]">
-                  <div className="applybtn  pointer">Apply Event3</div>
+                <div className="applybtn">
+                  <button>Apply Event</button>
                 </div>
               </div>
             </div>
@@ -83,12 +83,35 @@ const Wrapper = styled.div`
     background-size: cover;
     object-fit: cover;
   }
+  .eventtitle {
+    padding: 15px;
+  }
+  .eventtitle h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .applybtn {
+    background: #256F98;
+    padding: 10px;
+    color: white;
+  }
   @media (max-width: 768px) {
+    .center {
+      width: 95%;
+    }
     .productname {
       font-size: 15px;
     }
-    .eventitle h2{
-      font-size: 15px;
+    .eventtitle {
+      padding: 0px;
     }
+    .eventtitle h2{
+      font-size: 18px;
+    }
+    .applybtn {
+    background: #256F98;
+    padding: 0px;
+    color: white;
+  }
   }
 `;

@@ -21,34 +21,30 @@ export default function Product(props) {
 }
 
 const Wrapper = styled.div`
+ .card {
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+img {
+  width: 100%;
+  height: 270px;
+  background-size: cover;
+  object-fit: cover;
+}
+@media (max-width: 768px) {
   .card {
-    
+    min-width: 300px;
     width: 100%;
-    height: auto;
-    margin-top: 20px;
-    margin: 20px;
-    padding: 10px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 0px;
   }
   img {
     width: 100%;
-    height: 270px;
+    height: 200px;
   }
-  @media (max-width: 768px) {
-    .card {
-      max-width: 250px;
-      width: 100%;
-      padding: 0px;
-    }
-    img {
-      width: 100%;
-      height: 200px;
-    }
-    h2 {
-      font-size: 20px;
-    }
-    .card-body {
-      padding: 5px;
-    }
+  h2 {
+    font-size: 20px;
   }
+}
 `;
