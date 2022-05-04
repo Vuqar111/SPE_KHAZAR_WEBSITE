@@ -130,7 +130,7 @@ const Wrapper = styled.div`
   height: 100%;
   height: 350px;
   background: blue
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 10px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -145,22 +145,24 @@ const Wrapper = styled.div`
   width: 100%;
 }
   .bookcard {
-  width: 145px;
+  max-width: 150px;
+  width: 100%;
   height: 100%;
-  max-heigth: 320px;
+  max-height: 320px;
   background: blue
   margin-top: 20px;
-  padding: 10px;
+  padding: 5px;
 }
   .card {
     width: 100%;
   }
 .bookcard h2{
-  font-size: 15px;
+  font-size: 10px;
+  padding: 5px 0px 5px 0px;
 }
 .downloadbtn {
   padding: 4px;
-  font-size: 12px;
+  font-size: 10px;
   text-align: center;
 }
 

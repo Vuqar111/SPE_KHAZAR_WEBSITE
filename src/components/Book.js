@@ -38,6 +38,7 @@ img {
 
 @media (max-width: 768px) {
   .card {
+    min-width: 300px;
     width: 100%;
   }
 
