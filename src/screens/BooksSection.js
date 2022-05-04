@@ -145,12 +145,11 @@ const Wrapper = styled.div`
   width: 100%;
 }
   .bookcard {
-  max-width: 150px;
+  min-width: 160px;
+  max-width: 180px;    
   width: 100%;
   height: 100%;
-  max-height: 320px;
-  background: blue
-  margin-top: 20px;
+  margin-top: 5px;
   padding: 5px;
 }
   .card {
