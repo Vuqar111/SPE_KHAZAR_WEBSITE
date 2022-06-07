@@ -1,3 +1,4 @@
+import diana from './assets/images/dianaimg.jpeg';
 import aqsin from  './assets/images/aqsin.jpg';
 import resad from './assets/images/resad.jpg';
 import naibe from './assets/images/naibe.jpg';
@@ -37,7 +38,7 @@ export const teams = [
   name: "Diana Ismayilova",
   status: "President", 
   description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  
-  img: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+  img: diana,
   },
   {
     id: 2,
@@ -64,7 +65,7 @@ export const teams = [
   name: "Salman Musayev",
   status: "Vice-President", 
   description: "Web camera and microphone — Let’s talk about this devices. Although the webcam and microphone are not very important in computer use, both are important devices. It is important that both devices are of good quality. But no matter how good your camera is, if you h",  
-  img: salman,
+  img: resad,
   },
   {
     id: 6,
