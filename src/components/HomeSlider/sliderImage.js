@@ -1,6 +1,6 @@
-import First from '../../assets/images/speimg1.jpg';
-import Second from '../../assets/images/speimg2.jpg';
-import Third from '../../assets/images/speimg3.jpg';
+import First from '../../common/assets/images/speimg1.jpg';
+import Second from '../../common/assets/images/speimg2.jpg';
+import Third from '../../common/assets/images/speimg3.jpg';
 
 export default [
   {

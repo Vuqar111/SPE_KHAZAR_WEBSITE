@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import errorpng from '../assets/images/errorpng.svg'
-import { Link } from 'react-router-dom'
+import errorpng from '../common/assets/images/errorpng.svg'
 const Error = () => {
   return (
     <Wrapper>

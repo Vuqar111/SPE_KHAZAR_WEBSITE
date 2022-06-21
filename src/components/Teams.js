@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { teams } from "../data";
+import { teams } from "../common/data/teamsData";
 const Teams = () => {
   return (
     <Wrapper>

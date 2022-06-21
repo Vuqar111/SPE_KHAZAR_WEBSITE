@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 import { FiChevronRight, FiChevronLeft } from "react-icons/fi";
-import { FaQuoteRight } from "react-icons/fa";
 import styled from "styled-components";
-import { people } from "../data";
+import { people } from "../common/data/testimontialData";
 
 function Testimontials() {
   const [index, setIndex] = React.useState(0);

@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import aboutimg from "../assets/images/aboutimg.jpg";
+import faqHeadImage from "../common/assets/images/aboutimg.jpg";
 import styled from "styled-components";
 const FAQ = () => {
 
@@ -37,7 +37,7 @@ const FAQ = () => {
     <Wrapper>
     <div className="wrapper">
         <div className="imgdiv">
-          <img className="img" src={aboutimg} />
+          <img className="img" src={faqHeadImage} />
           <div className="abouttext">
             <h1>FREQUENTLY ASKED QUESTIONS</h1>
           </div>

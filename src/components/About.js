@@ -1,12 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import aboutimg from "../assets/images/speimageabout.jpeg";
+import aboutHeadImage from "../common/assets/images/speimageabout.jpeg";
 const About = () => {
   return (
     <Wrapper>
       <div>
         <div className="imgdiv">
-          <img className="img" src={aboutimg} />
+          <img className="img" src={aboutHeadImage}  alt="aboutHeadImage"/>
           <div className="abouttext">
             <h1>ABOUT US</h1>
           </div>

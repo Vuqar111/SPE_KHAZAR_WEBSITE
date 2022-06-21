@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { GiHamburgerMenu } from "react-icons/gi";
-import { AiOutlineSearch } from "react-icons/ai";
-import { BsPersonFill, BsMinecartLoaded } from "react-icons/bs";
+
 const SubHeader = () => {
   const { showlink, setshowlink } = useState(true);
   return (
